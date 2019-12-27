@@ -23,7 +23,7 @@ public class UEdictorController {
 
     @RequestMapping("/")
     private String showPage(){
-        return "starter";
+        return "index";
     }
 
     @RequestMapping(value="/config")
