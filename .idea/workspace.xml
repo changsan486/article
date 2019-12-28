@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2268858b-647b-40a4-a7eb-91dfe4964133" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="921b8542-df46-4538-88ff-f112382443cb" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Chang\apache-maven-3.6.1\repository" />
+        <option name="userSettingsFile" value="D:\Chang\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Um2MYx1gsHiqiUcmKKrmI3SH3e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com" />
+    <property name="last_opened_file_path" value="E:/work/gitRespository" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Chang\workspace_idea\test\src\main\resources\config" />
+      <recent name="D:\Chang\workspace_idea\test\src\main\resources" />
+      <recent name="D:\Chang\workspace_idea\test\src\main\resources\properties" />
+      <recent name="D:\Chang\workspace_idea\test\src\main\resources\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\95834\IdeaProjects" />
+      <recent name="D:\Chang\workspace_idea\test\src\main\resources\static" />
+      <recent name="D:\Chang\workspace_idea\test\my" />
+      <recent name="D:\Chang\workspace_idea\test\my\src\main\resources\config" />
+      <recent name="D:\Chang\workspace_idea\test\my\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UedictorAppication">
+    <configuration name="All in test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="article" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootConfigerationApplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="article" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ueditor.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ueditor.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ueditor.test.SpringBootConfigerationApplicationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootConfigerationApplicationTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="article" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ueditor.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ueditor.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ueditor.test.SpringBootConfigerationApplicationTest" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootConfigerationApplicationTest.testService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="article" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ueditor.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ueditor.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ueditor.test.SpringBootConfigerationApplicationTest" />
+      <option name="METHOD_NAME" value="testService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="my" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tl.test.conf.my.MyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="article" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ueditor.test.TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UedictorAppication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="article" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.UedictorAppication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UedictorAppication" />
+        <item itemvalue="JUnit.SpringBootConfigerationApplicationTest.testService" />
+        <item itemvalue="JUnit.SpringBootConfigerationApplicationTest" />
+        <item itemvalue="JUnit.SpringBootConfigerationApplicationTest.contextLoads" />
+        <item itemvalue="JUnit.All in test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SpringConfigurationTabSettings">
+    <option name="sortAlpha" value="true" />
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\95834\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2268858b-647b-40a4-a7eb-91dfe4964133" name="Default Changelist" comment="" />
+      <created>1575947402164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575947402164</updated>
+      <workItem from="1575947406287" duration="3084000" />
+      <workItem from="1575959884820" duration="6936000" />
+      <workItem from="1576025069816" duration="7570000" />
+      <workItem from="1576035176493" duration="6189000" />
+      <workItem from="1576050241634" duration="7574000" />
+      <workItem from="1576132551317" duration="1187000" />
+      <workItem from="1576487740885" duration="515000" />
+      <workItem from="1576543633879" duration="9028000" />
+      <workItem from="1576630147656" duration="1213000" />
+      <workItem from="1576726771168" duration="1112000" />
+      <workItem from="1576730871659" duration="1394000" />
+      <workItem from="1576803422950" duration="1709000" />
+      <workItem from="1576806434799" duration="9184000" />
+      <workItem from="1577061014827" duration="200000" />
+      <workItem from="1577061481054" duration="8814000" />
+      <workItem from="1577081161710" duration="6888000" />
+      <workItem from="1577092055624" duration="563000" />
+      <workItem from="1577352916036" duration="782000" />
+      <workItem from="1577406771045" duration="7563000" />
+      <workItem from="1577416743449" duration="1012000" />
+      <workItem from="1577425193605" duration="5580000" />
+      <workItem from="1577440002585" duration="1191000" />
+    </task>
+    <task id="LOCAL-00001" summary="文章发布">
+      <created>1577416605059</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577416605059</updated>
+    </task>
+    <task id="LOCAL-00002" summary="文章发布">
+      <created>1577440254326</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577440254326</updated>
+    </task>
+    <task id="LOCAL-00003" summary="文章发布">
+      <created>1577551540260</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577551540260</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="文章发布" />
+    <option name="LAST_COMMIT_MESSAGE" value="文章发布" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="760" y="293" key="CommitChangelistDialog2" timestamp="1577551529504">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="760" y="293" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1577551529504" />
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1577555886682">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1577555886682" />
+    <state x="810" y="355" key="Maven.ArtifactSearchDialog" timestamp="1577548284010">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="810" y="355" key="Maven.ArtifactSearchDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1577548284010" />
+    <state x="920" y="397" key="NewModule_or_Project.wizard" timestamp="1577554981812">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="920" y="397" key="NewModule_or_Project.wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1577554981812" />
+    <state x="781" y="342" key="SettingsEditor" timestamp="1577555801558">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="342" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1577555801558" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1577555584171">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1577555584171" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="new PackageImport(metadata).getPackageName()" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

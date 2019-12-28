@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+
+user:
+  userName: 常
+  password: 123
+  age: 25
+  female: true
+  birth: 1994/08/10
+  maps: {k1: v1,k2: v2}
+  lists:
+   - zhangsan
+   - lisi
+  vip:
+    cardNum: 666
+    superVip: true
