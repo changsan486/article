@@ -41,10 +41,10 @@ public class UEdictorController {
         }
 
     }
-    @RequestMapping("/edit")
-    public String edit(){
-        return "starter";
-    }
+//    @RequestMapping("/edit")
+//    public String edit(){
+//        return "starter";
+//    }
 //    @RequestMapping("/type1")
 //    @ResponseBody
 //    public Msg getType1(@RequestParam(value = "pageNum", defaultValue = "1")Integer pageNum) {
