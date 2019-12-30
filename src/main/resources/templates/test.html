@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script type="javascript">
+        $(function () {
+            console.log(result);
+        })
+    </script>
 </head>
 <body>
-    <h1 th:text="${msg}"></h1>
+    <h1></h1>
 
-    <table>
-        <tr>
-            <td th:each="user:${users}" th:utext="${user}" style="border: #0e141b solid 1px"></td>
+    <table >
+        <tr th:each="art:${article}" >
+            <td th:text="${art.title}" style="border: #0e141b solid 1px"></td>
+            <td th:text="${art.author}" style="border: #0e141b solid 1px"></td>
+            <td th:text="${art.body}" style="border: #0e141b solid 1px"></td>
+            <td th:text="${art.createTime}" style="border: #0e141b solid 1px"></td>
         </tr>
     </table>
 </body>

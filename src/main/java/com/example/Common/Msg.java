@@ -1,4 +1,4 @@
-package com.example.common;
+package com.example.Common;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -17,6 +17,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <link rel="stylesheet" href="dist/css/adminlte.min.css">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
@@ -110,15 +111,22 @@ scratch. This page gets rid of all links and provides the needed markup only.
                             <div class="card-body " style="padding: 0px">
                                 <table class="table table-hover">
                                     <thead>
-<!--                                    <tr>-->
-<!--                                        <th>#</th>-->
-<!--                                        <th>文章类型</th>-->
-<!--                                        <th>文章作者</th>-->
-<!--                                        <th>文章名</th>-->
-<!--                                    </tr>-->
+                                    <tr>
+                                        <th>文章类别</th>
+                                        <th>文章名称</th>
+                                        <th>文章作者</th>
+                                        <th>创建日期</th>
+                                        <th>最后修改</th>
+                                    </tr>
                                     </thead>
                                     <tbody id="tb">
-
+                                        <tr th:each="art:${article}">
+                                            <td th:text="${art.category}"/>
+                                            <td th:text="${art.title}"/>
+                                            <td th:text="${art.author}"/>
+                                            <td th:text="${#dates.format(art.createTime, 'yyyy-MM-dd hh:mm:ss')}"/>
+                                            <td th:text="${#dates.format(art.updateTime, 'yyyy-MM-dd hh:mm:ss')}"/>
+                                        </tr>
                                     </tbody>
                                 </table>
 
@@ -156,10 +164,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- Default to the left -->
     </footer>
 </div>
-<!-- ./wrapper -->
-
-<!-- REQUIRED SCRIPTS -->
-
 <!-- jQuery -->
 <script src="plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
@@ -167,81 +171,5 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <!-- AdminLTE App -->
 <script src="dist/js/adminlte.min.js"></script>
 
-<script type="text/javascript">
-    $(function() {
-            getPage();
-
-    });
-    function getPage(){
-        $.ajax({
-            url:"/query",
-            //data:"pageNum="+pageNum,
-            type:"GET",
-            success:function(result){
-                console.log(result);
-                //数据回显
-                //console.log(result.extend.pageInfo);
-                //
-                //build_page_msg(result);
-                //
-                //build_page_nav(result);
-                $("#tb").empty();
-                var td1 = $("<td></td>").html(result.id);
-                var td2 = $("<td></td>").html(result.title);
-                var td3 = $("<td></td>").html("null");
-                var td4 = $("<td></td>").html(result.smalltitle);
-                var tr = $("<tr></tr>").append(td4);//.append(td1).append(td2).append(td3)
-                tr.appendTo("#tb");
-            }
-        });
-    }
-    //分页信息回显
-    function build_page_msg(result){
-        $("#page_msg").empty();
-        $("#page_msg").append("当前第"+
-            result.extend.pageInfo.pageNum+
-            "页,共"+result.extend.pageInfo.pages+
-            "页,总计"+result.extend.pageInfo.total+
-            "条记录");
-    }
-    //分页条回显
-    function build_page_nav(result){
-        $("#page_nav").empty();
-        var ul = $("<ul></ul>").addClass("pagination");
-        var first = $("<li></li>").append($("<a></a>").append("首页").attr("href","#"));
-        var prev = $("<li></li>").append($("<a></a>").append("&laquo;").attr("href","#"));
-        if(!result.extend.pageInfo.hasPreviousPage){
-            first.addClass("disabled");
-            prev.addClass("disabled");
-        }else{
-            first.click(function(){getType1(1);});
-            prev.click(function(){getType1(result.extend.pageInfo.pageNum-1);});
-        }
-        var next = $("<li></li>").append($("<a></a>").append("&raquo;").attr("href","#"));
-        var last = $("<li></li>").append($("<a></a>").append("尾页").attr("href","#"));
-        if(!result.extend.pageInfo.hasNextPage){
-            next.addClass("disabled");
-            last.addClass("disabled");
-        }else{
-            next.click(function(){getType1(result.extend.pageInfo.pageNum+1);});
-            last.click(function(){getType1(result.extend.pageInfo.pages);});
-        }
-        ul.append(first).append(prev);
-        $.each(result.extend.pageInfo.navigatepageNums,function(index,item){
-            var numLi = $("<li></li>").append($("<a></a>").append(item));
-            if(result.extend.pageInfo.pageNum==item){
-                numLi.addClass("active");
-            }
-            numLi.click(function(){
-                getType1(item);
-            });
-            ul.append(numLi);
-        });
-        ul.append(next).append(last);
-        var nav = $("<nav></nav>").append(ul);
-        nav.appendTo("#page_nav");
-    }
-
-    </script>
     </body>
 </html>
