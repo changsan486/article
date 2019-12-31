@@ -14,4 +14,6 @@ public interface ArticleService {
     List<Article> queryAll();
     Article queryArticleByTitle(String title);
     void insertItem(Article article);
+
+    Article queryById(int id);
 }

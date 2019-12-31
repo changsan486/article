@@ -2,24 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2268858b-647b-40a4-a7eb-91dfe4964133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Bean/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Service/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Service/Impl/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Config/PageHelperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Css/channel/addHomeScreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Css/channel/mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/loading.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/logo_auto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/logo_culture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/logo_depth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/logo_ent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/logo_finance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/logo_media.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/logo_ndgd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/logo_ndgongyi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/logo_ndphotos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/logo_ndvideo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/logo_news.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/logo_nis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/logo_opinion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/logo_other.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/logo_politics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/logo_society.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/logo_sports.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/logo_tech.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/logo_travel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/mobile/logo_world.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Images/channel/transparent_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Js/Commin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Js/Commin_url.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Js/channel/addHomeScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Js/channel/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Js/channel/mobile_login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/Js/unity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Public/dwz/js/jquery-1.7.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_10.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/article.iml" beforeDir="false" afterPath="$PROJECT_DIR$/article.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Bean/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Bean/Vip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ArticleAppication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ArticleAppication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Config/MyMvcConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Controller/UEdictorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Controller/UEdictorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/UedictorAppication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ArticleAppication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/common/Msg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Common/Msg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Service/Impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Service/Impl/ArticleServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ueditor/test/SpringBootConfigerationApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ueditor/test/SpringBootConfigerationApplicationTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,9 +81,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="921b8542-df46-4538-88ff-f112382443cb" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -103,7 +126,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -116,18 +139,18 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Chang\workspace_idea\article\src\main\resources" />
-      <recent name="C:\Users\95834\IdeaProjects" />
-      <recent name="D:\Chang\workspace_idea\test\src\main\resources\static" />
-      <recent name="D:\Chang\workspace_idea\test\my" />
-      <recent name="D:\Chang\workspace_idea\test\my\src\main\resources\config" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Chang\workspace_idea\test\src\main\resources\config" />
       <recent name="D:\Chang\workspace_idea\test\src\main\resources" />
       <recent name="D:\Chang\workspace_idea\test\src\main\resources\properties" />
       <recent name="D:\Chang\workspace_idea\test\src\main\resources\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Chang\workspace_idea\article\src\main\resources\static" />
+      <recent name="D:\Chang\workspace_idea\article\src\main\resources" />
+      <recent name="C:\Users\95834\IdeaProjects" />
+      <recent name="D:\Chang\workspace_idea\test\src\main\resources\static" />
+      <recent name="D:\Chang\workspace_idea\test\my" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -236,16 +259,17 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
+        <option name="contentProportion" value="0.27936298" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@bd8bd71c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@fe974995" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@bd8bd71c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ecf7b727" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@fe974995" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b5d3a358" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -302,6 +326,11 @@
       <workItem from="1577668959545" duration="5682000" />
       <workItem from="1577674826387" duration="7052000" />
       <workItem from="1577687816910" duration="10373000" />
+      <workItem from="1577698316422" duration="165000" />
+      <workItem from="1577752335707" duration="987000" />
+      <workItem from="1577753412004" duration="15148000" />
+      <workItem from="1577773574313" duration="5371000" />
+      <workItem from="1577779472901" duration="3922000" />
     </task>
     <task id="LOCAL-00001" summary="文章发布">
       <created>1577416605059</created>
@@ -331,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577555930146</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="12/30">
+      <created>1577698440087</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577698440087</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +391,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="文章发布" />
-    <option name="LAST_COMMIT_MESSAGE" value="文章发布" />
+    <MESSAGE value="12/30" />
+    <option name="LAST_COMMIT_MESSAGE" value="12/30" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="359" key="#Project_Structure" timestamp="1577613183285">

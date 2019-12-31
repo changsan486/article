@@ -8,7 +8,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
  * @author MrChang
  * @create 2019-12-10 15:38
  */
-@EnableJpaAuditing
 @SpringBootApplication
 /*
 @Target(ElementType.TYPE)
