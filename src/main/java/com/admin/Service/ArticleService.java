@@ -16,4 +16,6 @@ public interface ArticleService {
     void insertItem(Article article);
 
     Article queryById(int id);
+
+    void delete(Integer id);
 }

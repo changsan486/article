@@ -1,5 +1,9 @@
 package com.admin.Bean;
 
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
+
+import javax.persistence.Entity;
 import java.util.Date;
 
 /**
@@ -7,6 +11,7 @@ import java.util.Date;
  * @create 2019-12-30 9:41
  * @description
  */
+@Component
 public class Article {
     private Integer id;
     private String author;

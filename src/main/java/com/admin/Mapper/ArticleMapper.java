@@ -1,9 +1,7 @@
 package com.admin.Mapper;
 
 import com.admin.Bean.Article;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -21,8 +19,11 @@ public interface ArticleMapper {
     List<Article> queryAll();
     @Select("select * from article where title like CONCAT('%',#{title},'%')")
     Article queryArticleByTitle(String title);
+    @Options(useGeneratedKeys = true,keyProperty = "id")
     @Insert("insert into article (title,body,category) value (#{title},#{body},#{category})")
     void insertItem(Article article);
     @Select("select title,body,category from article where id = #{id}")
     Article queryById(int id);
+    @Delete("delete from article where id = #{id}")
+    void delete(Integer id);
 }

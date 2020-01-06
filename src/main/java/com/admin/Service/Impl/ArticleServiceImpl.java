@@ -38,4 +38,9 @@ public class ArticleServiceImpl implements ArticleService {
     public Article queryById(int id) {
         return articleMapper.queryById(id);
     }
+
+    @Override
+    public void delete(Integer id) {
+        articleMapper.delete(id);
+    }
 }

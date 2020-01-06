@@ -23771,6 +23771,7 @@ UE.plugin.register('autoupload', function (){
                     loader.setAttribute('_src', link);
                     loader.setAttribute('title', data.title || '');
                     loader.setAttribute('alt', data.original || '');
+                    loader.setAttribute('style','max-width:100%');
                     loader.removeAttribute('id');
                     domUtils.removeClasses(loader, 'loadingclass');
                 }

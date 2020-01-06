@@ -1,8 +1,8 @@
 {
-    "basePath":"E:/file",
+    "basePath":"D:/Chang/workspace_idea/article/src/main/resources/img",
     "imageActionName": "uploadimage",
     "imageFieldName": "upfile",
-    "imageMaxSize": 2048000,
+    "imageMaxSize": 20480000,
     "imageAllowFiles": [".png", ".jpg", ".jpeg", ".gif", ".bmp"],
     "imageCompressEnable": true,
     "imageCompressBorder": 1600,
@@ -12,7 +12,7 @@
     "scrawlActionName": "uploadscrawl",
     "scrawlFieldName": "upfile",
     "scrawlPathFormat": "/ueditor/jsp/upload/image/{yyyy}{mm}{dd}/{time}{rand:6}",
-    "scrawlMaxSize": 2048000,
+    "scrawlMaxSize": 20480000,
     "scrawlUrlPrefix": "",
     "scrawlInsertAlign": "none",
 

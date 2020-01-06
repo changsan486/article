@@ -43,13 +43,22 @@ public class ArticleController {
         //是否是最后一页
         model.addAttribute("isLastPage", pageInfo.isIsLastPage());
         model.addAttribute("total",pageInfo.getTotal());
+        //
+        model.addAttribute("article",new Article());
         System.out.println(model);
         return "index";
     }
 
     @RequestMapping("/edit")
-    public String edit(){
-        return "starter";
+    public String edit(Article article){
+        articleService.insertItem(article);
+        return "redirect:/index";
+    }
+
+    @RequestMapping("/delete")
+    public String delete(Integer id){
+        articleService.delete(id);
+        return "redirect:/index";
     }
 
     @RequestMapping("/main")
