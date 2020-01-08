@@ -21,6 +21,8 @@ public class Article {
     private Date createTime;
     private Date updateTime;
     private String image;
+    private String tip;
+    private String point;
 
     public Integer getId() {
         return id;
@@ -28,6 +30,14 @@ public class Article {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
     }
 
     public String getTitle() {
@@ -54,7 +64,6 @@ public class Article {
         this.category = category;
     }
 
-
     public Date getCreateTime() {
         return createTime;
     }
@@ -71,20 +80,28 @@ public class Article {
         this.updateTime = updateTime;
     }
 
-    public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
     public String getImage() {
         return image;
     }
 
     public void setImage(String image) {
         this.image = image;
+    }
+
+    public String getTip() {
+        return tip;
+    }
+
+    public void setTip(String tip) {
+        this.tip = tip;
+    }
+
+    public String getPoint() {
+        return point;
+    }
+
+    public void setPoint(String point) {
+        this.point = point;
     }
 
     @Override
@@ -98,6 +115,8 @@ public class Article {
                 ", createTime=" + createTime +
                 ", updateTime=" + updateTime +
                 ", image='" + image + '\'' +
+                ", tip='" + tip + '\'' +
+                ", point='" + point + '\'' +
                 '}';
     }
 }

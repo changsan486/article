@@ -31,7 +31,7 @@ public class ArticleServiceImpl implements ArticleService {
 
     @Override
     public void insertItem(Article article) {
-
+        articleMapper.insertItem(article);
     }
 
     @Override
@@ -42,5 +42,10 @@ public class ArticleServiceImpl implements ArticleService {
     @Override
     public void delete(Integer id) {
         articleMapper.delete(id);
+    }
+
+    @Override
+    public void updatePoint(Integer id) {
+        articleMapper.updatePoint(id);
     }
 }

@@ -12,10 +12,14 @@ import java.util.List;
 public interface ArticleService {
 
     List<Article> queryAll();
+
     Article queryArticleByTitle(String title);
+
     void insertItem(Article article);
 
     Article queryById(int id);
 
     void delete(Integer id);
+
+    void updatePoint(Integer id);
 }

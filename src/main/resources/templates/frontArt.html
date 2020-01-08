@@ -8,7 +8,26 @@
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/templatemo-style.css">
     <link rel="stylesheet" href="assets/css/owl.css">
-
+    <style type="text/css">
+        h1,h4{
+            text-align: -webkit-center;
+        }
+        h1{
+            margin-bottom: 10px;
+        }
+        .artMsg{
+            margin-bottom: 0.3rem;
+        }
+        .logo{
+            background: #0b62b2;
+        }
+        .simple-post{
+            margin-top: 0px;
+        }
+        section img{
+            width: 180px;
+        }
+    </style>
 
 <body class="is-preload">
 <!-- Wrapper -->
@@ -19,23 +38,50 @@
             <!-- Header -->
             <header id="header">
                 <div class="logo">
-                    <a href="index.html">河北客运</a>
+                    <a href="#">河北客运</a>
                 </div>
             </header>
-
-            <!-- Page Heading -->
             <div class="page-heading">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-12">
                             <h1 th:text="${main.title}"></h1>
+                            <h4 th:text="${main.author}"></h4>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="artMsg">文章类型:<span th:text="${main.category}"></span></p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="artMsg">文章点击量：<span th:text="${main.point}"></span></p>
+                        </div>
+                        <div class="col-md-12">
+                            <p>&nbsp;</p>
                             <p th:utext="${main.body}"></p>
                         </div>
+
                     </div>
                 </div>
             </div>
+            <section class="simple-post">
+                <footer id="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>更多交通资讯，请锁定河北客运</p>
+                                <img th:src="@{/assets/images/mark.jpg}">
+                            </div>
+                            <div class="col-md-6">
+                                <p>伙伴出行，您安全出行的不二选择</p>
+                                <img th:src="@{/assets/images/hbcx.png}">
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </section>
         </div>
-
     </div>
 </div>
 <!-- Scripts -->
@@ -48,5 +94,6 @@
 <script src="assets/js/transition.js"></script>
 <script src="assets/js/owl-carousel.js"></script>
 <script src="assets/js/custom.js"></script>
+
 </body>
 </html>

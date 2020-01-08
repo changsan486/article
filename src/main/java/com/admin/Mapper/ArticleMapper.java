@@ -15,15 +15,17 @@ import java.util.List;
 @Mapper
 public interface ArticleMapper {
 
-    @Select("select * from article")
+    @Select("select * from article order by create_time desc")
     List<Article> queryAll();
     @Select("select * from article where title like CONCAT('%',#{title},'%')")
     Article queryArticleByTitle(String title);
     @Options(useGeneratedKeys = true,keyProperty = "id")
-    @Insert("insert into article (title,body,category) value (#{title},#{body},#{category})")
+    @Insert("insert into article (title,author,body,category,image,tip) value (#{title},#{author},#{body},#{category},#{image},#{tip})")
     void insertItem(Article article);
-    @Select("select title,body,category from article where id = #{id}")
+    @Select("select * from article where id = #{id}")
     Article queryById(int id);
     @Delete("delete from article where id = #{id}")
     void delete(Integer id);
+    @Update("update article set point=point+'1'  where id = #{id}")
+    void updatePoint(Integer id);
 }

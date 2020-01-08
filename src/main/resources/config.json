@@ -1,5 +1,5 @@
 {
-    "basePath":"D:/Chang/workspace_idea/article/src/main/resources/img",
+    "basePath":"D:/Chang/workspace_idea/article/src/main/resources/static",
     "imageActionName": "uploadimage",
     "imageFieldName": "upfile",
     "imageMaxSize": 20480000,
@@ -11,7 +11,7 @@
     "imagePathFormat": "/image/{yyyy}{mm}{dd}/{time}{rand:6}",
     "scrawlActionName": "uploadscrawl",
     "scrawlFieldName": "upfile",
-    "scrawlPathFormat": "/ueditor/jsp/upload/image/{yyyy}{mm}{dd}/{time}{rand:6}",
+    "scrawlPathFormat": "/image/{yyyy}{mm}{dd}/{time}{rand:6}",
     "scrawlMaxSize": 20480000,
     "scrawlUrlPrefix": "",
     "scrawlInsertAlign": "none",

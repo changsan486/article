@@ -2,13 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2268858b-647b-40a4-a7eb-91dfe4964133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hs_err_pid6752.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/image/20200106/1578277436278028902.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/image/20200106/1578278094647076000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/image/20200106/1578280985576029524.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/image/20200106/1578281616391004758.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/image/20200106/1578281966039004753.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/image/20200106/1578282047557070642.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/hbcx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/mark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/20200107/1578379505227021900.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/20200107/1578379758361079613.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/20200107/1578381841506021179.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/20200107/1578383681437027654.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/20200107/1578387332469078762.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/20200107/1578387404045086211.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/20200107/1578390529646070334.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ueditor/jsp/upload/file/20200107/1578389635164048431.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ueditor/jsp/upload/file/20200108/1578450232611068542.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ueditor/jsp/upload/file/20200108/1578474833539060832.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/admin/Bean/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admin/Bean/Article.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/admin/Controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admin/Controller/ArticleController.java" afterDir="false" />
@@ -17,12 +45,15 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/admin/Service/Impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admin/Service/Impl/ArticleServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/image/image.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/dialogs/image/image.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/css/ueditor.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/themes/default/css/ueditor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/css/ueditor.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/themes/default/css/ueditor.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/ueditor.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/ueditor.all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/ueditor.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/ueditor.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/image/20200106/1578277436278028902.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/image/20200106/1578278094647076000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/image/20200106/1578280985576029524.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/image/20200106/1578281616391004758.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/image/20200106/1578281966039004753.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/image/20200106/1578282047557070642.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/css/templatemo-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/templatemo-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/frontArt.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/frontArt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/frontIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/frontIndex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/simple_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/simple_page.html" afterDir="false" />
     </list>
@@ -52,9 +83,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -115,7 +146,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -126,10 +157,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Chang\workspace_idea\article\src\main\resources\static\assets\images" />
+      <recent name="D:\Chang\workspace_idea\article\src\main\resources\static\dist" />
       <recent name="D:\Chang\workspace_idea\article\src\main\resources\static" />
       <recent name="D:\Chang\workspace_idea\article\src\main\resources\templates" />
       <recent name="D:\Chang\workspace_idea\article\src\main\resources" />
-      <recent name="C:\Users\95834\IdeaProjects" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -243,12 +274,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6abd5410" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@51c098b2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6abd5410" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2fcb1c9e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@51c098b2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e23d6e44" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -315,7 +346,15 @@
       <workItem from="1578012107810" duration="2102000" />
       <workItem from="1578021287469" duration="1872000" />
       <workItem from="1578271061773" duration="8010000" />
-      <workItem from="1578280550372" duration="13831000" />
+      <workItem from="1578280550372" duration="15164000" />
+      <workItem from="1578357067280" duration="1758000" />
+      <workItem from="1578359897989" duration="9441000" />
+      <workItem from="1578373616267" duration="9255000" />
+      <workItem from="1578383016848" duration="6839000" />
+      <workItem from="1578390058376" duration="619000" />
+      <workItem from="1578443808787" duration="11194000" />
+      <workItem from="1578466252097" duration="5780000" />
+      <workItem from="1578472378024" duration="2757000" />
     </task>
     <task id="LOCAL-00001" summary="文章发布">
       <created>1577416605059</created>
@@ -359,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577783947650</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1.6">
+      <created>1578301534719</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578301534719</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,9 +428,14 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="D:/new" />
+      <path value="E:/work/gitRespository" />
+    </ignored-roots>
     <MESSAGE value="文章发布" />
     <MESSAGE value="12/30" />
-    <option name="LAST_COMMIT_MESSAGE" value="12/30" />
+    <MESSAGE value="1.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.6" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="359" key="#Project_Structure" timestamp="1577613183285">

@@ -6,13 +6,10 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-
-import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -44,13 +41,22 @@ public class ArticleController {
         model.addAttribute("isLastPage", pageInfo.isIsLastPage());
         model.addAttribute("total",pageInfo.getTotal());
         //
-        model.addAttribute("article",new Article());
+
         System.out.println(model);
         return "index";
     }
-
+    @RequestMapping("/add")
+    public String add(Model model){
+        model.addAttribute("article",new Article());
+        return "add";
+    }
+    @RequestMapping("/back")
+    public String back(){
+        return "redirect:/index";
+    }
     @RequestMapping("/edit")
-    public String edit(Article article){
+    public String edit(@ModelAttribute Article article){
+        System.out.println(article.toString());
         articleService.insertItem(article);
         return "redirect:/index";
     }
@@ -76,6 +82,7 @@ public class ArticleController {
     }
     @RequestMapping("/readMore")
     public String readMore(Model model,@RequestParam(value = "id",required=false) Integer id){
+        articleService.updatePoint(id);
         Article article = articleService.queryById(id);
         model.addAttribute("main",article);
         return "frontArt";
