@@ -40,7 +40,7 @@ public class ArticleController {
         //是否是最后一页
         model.addAttribute("isLastPage", pageInfo.isIsLastPage());
         model.addAttribute("total",pageInfo.getTotal());
-        //
+
 
         System.out.println(model);
         return "index";

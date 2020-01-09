@@ -2,58 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2268858b-647b-40a4-a7eb-91dfe4964133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/hbcx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/mark.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/20200107/1578379505227021900.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/20200107/1578379758361079613.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/20200107/1578381841506021179.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/20200107/1578383681437027654.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/20200107/1578387332469078762.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/20200107/1578387404045086211.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/20200107/1578390529646070334.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ueditor/jsp/upload/file/20200107/1578389635164048431.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ueditor/jsp/upload/file/20200108/1578450232611068542.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/ueditor/jsp/upload/file/20200108/1578474833539060832.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/admin/Bean/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admin/Bean/Article.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/admin/Controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admin/Controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/admin/Mapper/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admin/Mapper/ArticleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/admin/Service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admin/Service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/admin/Service/Impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admin/Service/Impl/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/image/20200106/1578277436278028902.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/image/20200106/1578278094647076000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/image/20200106/1578280985576029524.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/image/20200106/1578281616391004758.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/image/20200106/1578281966039004753.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/image/20200106/1578282047557070642.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/css/templatemo-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/templatemo-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/frontArt.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/frontArt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/frontIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/frontIndex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/simple_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/simple_page.html" afterDir="false" />
     </list>
@@ -274,12 +226,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@51c098b2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8f9ab5ca" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@51c098b2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e23d6e44" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8f9ab5ca" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f502ce02" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -354,7 +306,9 @@
       <workItem from="1578390058376" duration="619000" />
       <workItem from="1578443808787" duration="11194000" />
       <workItem from="1578466252097" duration="5780000" />
-      <workItem from="1578472378024" duration="2757000" />
+      <workItem from="1578472378024" duration="3577000" />
+      <workItem from="1578530225039" duration="381000" />
+      <workItem from="1578531019992" duration="10893000" />
     </task>
     <task id="LOCAL-00001" summary="文章发布">
       <created>1577416605059</created>
@@ -405,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578301534719</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1.8">
+      <created>1578477096497</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578477096497</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +396,8 @@
     <MESSAGE value="文章发布" />
     <MESSAGE value="12/30" />
     <MESSAGE value="1.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.6" />
+    <MESSAGE value="1.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.8" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="359" key="#Project_Structure" timestamp="1577613183285">

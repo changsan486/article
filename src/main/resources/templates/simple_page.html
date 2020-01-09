@@ -12,6 +12,11 @@
     div{
       width:100%;
     }
+    input{
+      border: none;
+      outline: none;
+      background: transparent;
+    }
   </style>
 
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
@@ -33,6 +38,7 @@
       <!-- Header -->
       <header id="header">
         <div class="logo">
+          <button class="btn btn-primary" th:onclick="artEdit()">文章修改</button>
           <a href="#">河北客运</a>
         </div>
       </header>
@@ -42,50 +48,40 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
-              <h1 th:text="${main.title}"></h1>
-              <h4 th:text="${main.author}"></h4>
+              <h1>
+                <input class="artEdit" id="arTitle" th:value="${main.title}" disabled>
+              </h1>
+              <h4>
+                <input class="artEdit" id="arAuthor" th:value="${main.author}" disabled>
+              </h4>
             </div>
-            <div class="col-md-4">
-              <p class="artMsg">文章类型:<span th:text="${main.category}"></span></p>
-            </div>
-            <div class="col-md-4">
-              <p>&nbsp;</p>
-            </div>
-            <div class="col-md-4">
-              <p class="artMsg">文章点击量：<span th:text="${main.point}"></span></p>
-            </div>
-            <div class="col-md-12">
-              <p>&nbsp;</p>
+            <div id="artBody" class="col-md-12">
               <p th:utext="${main.body}"></p>
             </div>
-
-          </div>
-        </div>
-      </div>
-      <section class="contact-form">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12" id="update">
-              <script id="change" type="text/plain">
-              </script>
+            <div  class="col-md-12">
+              <script type="text/plain" id="change"></script>
+            </div>
+            <div class="col-md-12">
+              <p class="artMsg">
+                文章类型:
+                <input class="artEdit" id="arCategory" th:value="${main.category}" disabled>
+              </p>
             </div>
           </div>
         </div>
-      </section>
-        </div>
+        <section class="contact-form">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12" id="update">
 
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-
     </div>
   </div>
 </div>
-
-<script type="text/javascript">
-  $("#editor").text("试试效果");
-  //实例化编辑器
-  //建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例
-  var up = UE.getEditor('change');
-</script>
 <!-- Scripts -->
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
@@ -96,5 +92,16 @@
 <script src="assets/js/transition.js"></script>
 <script src="assets/js/owl-carousel.js"></script>
 <script src="assets/js/custom.js"></script>
+
+<script th:inline="javascript">
+  function artEdit() {
+      $(".artEdit").removeAttr("disabled").removeAttr("style");
+      $("#artBody").hide();
+      var artBody = [[${main.body}]];
+      $("#change").text(artBody);
+      var up = UE.getEditor('change');
+  }
+
+</script>
 </body>
 </html>

@@ -103,7 +103,7 @@
                             <td th:text="${art.author}" th:class="autocut"/>
                             <td th:text="${#dates.format(art.createTime, 'yyyy-MM-dd hh:mm:ss')}" th:class="autocut"/>
                             <td th:text="${#dates.format(art.updateTime, 'yyyy-MM-dd hh:mm:ss')}" th:class="autocut"/>
-                            <td><a href="#" th:onclick="'javascript:articleRead(\''+${art.getId()}+'\')'">查看</a>
+                            <td><a href="#" th:onclick="'javascript:articleRead(\''+${art.getId()}+'\')'">修改</a>
                                 &nbsp;&nbsp;
                                 <a th:href="@{/delete(id=${art.getId()})}" th:onclick="return del()">删除</a>
                             </td>

@@ -1,5 +1,14 @@
 @import url(fontawesome.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
+/* app adjust */
+html{font-size:12px}
+@media screen and (min-width:321px) and (max-width:375px){html{font-size:13px}}
+@media screen and (min-width:376px) and (max-width:414px){html{font-size:14px}}
+@media screen and (min-width:415px) and (max-width:639px){html{font-size:17px}}
+@media screen and (min-width:640px) and (max-width:719px){html{font-size:22px}}
+@media screen and (min-width:720px) and (max-width:749px){html{font-size:25px}}
+@media screen and (min-width:750px) and (max-width:799px){html{font-size:26px}}
+@media screen and (min-width:800px){html{font-size:27px}}
 
 body {
   font-family: 'Roboto Slab', sans-serif;
@@ -17,17 +26,22 @@ a:hover {
 }
 
 p {
-  font-size: 14px;
   line-height: 25px;
   color: #7a7a7a;
   letter-spacing: 0.2px;
 }
 
+.page-heading h1, .page-heading h4{
+  text-align: -webkit-center;
+}
 h4 {
-  font-size: 19px;
   font-weight: 700;
   color: #31323a;
   letter-spacing: 0.25px;
+}
+
+.page-heading img{
+  max-width: 675px;
 }
 
 img {
@@ -325,7 +339,7 @@ section.contact-form {
 }
 
 .contact-form {
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 .contact-form .container-fluid {
@@ -879,13 +893,11 @@ section.buttons .container-fluid {
 
 .page-heading h1 {
   margin-top: 0px;
-  font-size: 38px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 .page-heading p {
-  font-size: 15px;
   color: #4a4a4a;
 }
 
@@ -1239,7 +1251,7 @@ section.buttons .container-fluid {
   user-select: none;
   color: #3d4449;
   font-family: "Roboto Slab", serif;
-  font-family: 400;
+  font-weight: 400;
   letter-spacing: 0.075em;
   list-style: none;
   margin-bottom: 0;
